@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
 	const calculateDeliveryButton = document.getElementById('calculate-delivery');
 
 	calculateDeliveryButton.addEventListener('click', () => {
-		const zipCode = document.getElementById('zip-code').value;
+		const zipCode = document.getElementById('js-zip-code').value;
 		console.log(zipCode);
 
 		// ADD LOGIC HERE
